@@ -1,0 +1,11 @@
+---
+
+features:
+  - Navigation
+
+# Markdown-formatted description of measurement behavior
+---
+The count of the total non-unique http(s) URIs visited in a subsession,
+including page reloads, after the session has been restored.
+This does not include background page requests and URIs from embedded
+pages or private browsing.
