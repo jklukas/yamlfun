@@ -1,0 +1,32 @@
+---
+name: about_page.libraries_tapped
+type: event
+description: |-
+  A user tapped on "Libraries that we use" item from About page
+expires: '2020-09-01'
+disabled: false
+send_in_pings:
+- events
+
+####EVERYTHING ABOVE THIS LINE IS AUTOMATICALLY GENERATED - CHANGES WILL BE OVERWRITTEN####
+---
+## Put Links to queries or relevant reports here.
+links:
+  - description: Your_Name, Date
+    url: www.some_link.com
+features:
+  - Navigation
+---
+## Known issues about handling or interpreting this probe go below in Markdown format.
+Examples of common issues include:
+* Inconsistency or unreliability of when the probe is recorded
+* Commonly observed values that should be impossible
+* Values that require special interpretation (e.g. 10,000 = timeout)
+* Situations where the probe is triggered unexpectedly
+
+---
+## Common metrics that are computed with this probe and their interpretation / description in Markdown format.
+* Can also include names of BigQuery tables where the metric is stored.
+
+---
+## Other Notes in Markdown format
